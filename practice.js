@@ -27,7 +27,7 @@
   Then invoke the callback function, passing in the first element in the array as it's argument.
 */
 
-function first(arr,cb){
+function first( arr,cb ){
   cb(arr[0])
 }
 
@@ -49,7 +49,7 @@ first(names, function(firstName){
   Then invoke the callback, passing in the last element in the array as the argument.
 */
 
-function last(arr, cb){
+function last( arr,cb ){
   cb(arr[arr.length - 1])
 }
 
